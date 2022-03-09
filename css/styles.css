@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.conteiner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.articles-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background: lightgray;
+  width: 150px;
+}
