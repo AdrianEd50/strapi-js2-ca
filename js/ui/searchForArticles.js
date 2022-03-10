@@ -1,9 +1,9 @@
-import { renderArticles } from "./renderArticles.js";
+import { renderArticles } from "./ui/renderArticles.js";
 
 export function searhForArticles(articles) {
   const search = document.querySelector(".search");
 
-  searh.onkeyup = function (event) {
+  search.onkeyup = function (event) {
     const searchValue = event.target.value.trim().toLowerCase();
 
     const filteredArticles = articles.filter(function (article) {

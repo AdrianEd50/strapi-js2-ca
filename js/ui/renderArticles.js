@@ -1,5 +1,6 @@
 export function renderArticles(articlesToRender) {
   const conteiner = document.querySelector(".articles-conteiner");
+
   conteiner.innerHTML = "";
 
   articlesToRender.forEach(function (article) {
