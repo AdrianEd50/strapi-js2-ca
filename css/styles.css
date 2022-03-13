@@ -1,3 +1,9 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -21,6 +27,30 @@ a {
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
-  background: lightgray;
+  border: 2px solid grey;
   width: 150px;
+}
+
+header {
+  display: flex;
+  background-color: grey;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 25px;
+}
+
+nav ul {
+  padding: 10px;
+  margin-left: 25px;
+}
+
+.current {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }

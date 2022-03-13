@@ -1,6 +1,6 @@
-import { renderArticles } from "./ui/renderArticles.js";
+import { renderArticles } from "./renderArticles.js";
 
-export function searhForArticles(articles) {
+export function searchForArticles(articles) {
   const search = document.querySelector(".search");
 
   search.onkeyup = function (event) {

@@ -11,8 +11,8 @@ const articlesUrl = baseUrl + "articles";
 
     console.log(articles);
 
-    renderArticles();
-    searchForArticles();
+    renderArticles(articles);
+    searchForArticles(articles);
   } catch (error) {
     console.log(error);
   }
